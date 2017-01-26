@@ -1,4 +1,15 @@
 defmodule SvgBobEx do
+    @moduledoc """
+      Provides a straightforward interface to the [svgbob](https://github.com/ivanceras/svgbobrus) tool.
+
+        graph = \"\"\"
+        +-----+    +-----+
+        | one +--->| two |
+        +-----+    +-----+
+        \"\"\"
+        SvgBobEx.to_svg!(graph)
+    """
+
     @doc """
       Takes the string containing the ASCII graph and converts it into
       SVG data. Returns `{ :ok, String.t }` on success, or
