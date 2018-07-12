@@ -17,6 +17,6 @@ def applications do
 end
 
 def deps do
-    [{ :svgbobex, "~> 0.0.1" }]
+    [{ :svgbobex, "~> 0.0.2" }]
 end
 ```
