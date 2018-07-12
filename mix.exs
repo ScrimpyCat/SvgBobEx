@@ -33,7 +33,7 @@ defmodule SvgBobEx.Mixfile do
     defp deps do
         [
             { :porcelain, "~> 2.0" },
-            { :ex_doc, "~> 0.13", only: :dev }
+            { :ex_doc, "~> 0.18", only: :dev, runtime: false }
         ]
     end
 
